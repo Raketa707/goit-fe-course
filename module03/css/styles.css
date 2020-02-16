@@ -1,0 +1,87 @@
+*html {
+     box-sizing: border-box;
+     margin: 0 auto;
+     padding: 0 auto;
+     font-family: serif;
+    }
+ *,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body{
+    color: #626262;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+    .navi{
+        padding: 70px 0;  
+    }
+    .lvl {
+       list-style: none;
+       margin: 0; 
+    font-size: 0;
+    text-align: center; 
+    padding: 0;
+    color: #626262;
+    margin-right: 60px;
+    font-family: 'Playfair Display', serif;
+    }
+  a {
+    text-decoration: none;
+  }
+.her{
+    width: 902px;
+    margin: 0 auto;
+}  
+.linkk{
+    display: inline-block;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: right;
+    margin-right: 41px;
+}
+.contain{
+    display: inline-block;
+    width: 420px;
+    margin-bottom: 140px;
+    padding: 0;
+}
+button{
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center; 
+    margin: 0 auto;
+    text-transform: uppercase;
+    width: 164px;
+    height: 60px;
+    background-color: #ddddd7;
+    border: 1px solid #626262;
+    color: #626262;
+}
+.contain:not(:last-child){
+    font-size: 0;
+    margin-right: 28px;
+}
+.paragraf{
+    color: #626262;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.text{
+    width: 420px;
+    height: 78px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+    font-family: "Playfair Display";
+    font-weight: 400;
+}
+.head{
+    color:#626262;
+    font-size: 30px;
+    font-family: 'Ubuntu',serif;
+    font-weight: 400px; 
+}
