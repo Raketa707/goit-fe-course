@@ -53,18 +53,20 @@ a {
   clear: both;
 }
 body{
-  width: 1400px;
+  max-width: 100%;
   height: auto;
+  margin: 0auto;
 }
 
 /* navigation*/
 
 .navi{
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   text-align: center;
   width: 960px;
-  margin-left: 230px;
+
 }
 
 .navigationn{
@@ -101,7 +103,7 @@ font-weight: 400;
 
 .STUFF{
   width: 960px;
-  margin-left: 230px;
+  margin: 0 auto;
 }
 
 
@@ -202,6 +204,7 @@ background-position: center;
   background-repeat: no-repeat;
   width: 1400px;
   height: 676px;
+  margin: 0 auto;
 }
 .headliner{
   text-align: center;
@@ -214,7 +217,8 @@ padding-top: 110px;
 
 
 .container{
-margin-left: 230PX;
+  margin: 0 auto;
+text-align: center;
 width: 940px;
 height: 316px;
 font-family: "Montserrat";
@@ -276,7 +280,7 @@ width: 240px;
 height: 65px;
 background-color: #fed136;
 margin-top: 30px;
-margin-left: 360px;
+margin: 0 auto;
 border-radius: 2px;
 border: 0px;
 cursor: pointer;
