@@ -1,0 +1,203 @@
+/* roboto-slab-300 - latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('../fonts/roboto-slab-v11-latin-300.woff2') format('woff2'), 
+         url('../fonts/roboto-slab-v11-latin-300.woff') format('woff');
+}
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'),
+         url('../fonts/montserrat-v14-latin-regular.woff') format('woff'); 
+        }
+  
+  /* roboto-slab-regular - latin */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto-slab-v11-latin-regular.woff2') format('woff2'),
+         url('../fonts/roboto-slab-v11-latin-regular.woff') format('woff'); 
+  }
+  
+  
+  /* montserrat-700 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+         url('../fonts/montserrat-v14-latin-700.woff2') format('woff2'),
+         url('../fonts/montserrat-v14-latin-700.woff') format('woff'); 
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ul,
+ol {
+  list-style: none;
+  }
+
+
+  *,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+  
+  
+a {
+    text-decoration: none;
+ }
+  
+  
+  .clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+
+
+  body{
+  
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .navigation{
+      text-align: center;
+      background-image: url(../images/Mobile.png);
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+  
+  .logo{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 700;
+  }
+
+
+  .btn{
+font-size: 14px;
+color: #ffffff;
+font-family: "Montserrat";
+font-weight: 700;
+text-align: center;
+width: 90px;
+height: 36px;
+border-radius: 18px;
+background-color: rgba(26, 25, 21, 0);
+border: 2px solid #ffffff;
+margin-top: 16px;
+margin-bottom: 124px;
+  }
+
+.headline {
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 18px;
+    margin-top: 34px;
+}
+
+
+
+  .finder {
+      margin-bottom: 131px;
+      margin-top: 18px;
+      font-size: 14px;
+color: #ffffff;
+font-family: "Montserrat";
+font-weight: 700;
+text-align: center;
+width: 280px;
+height: 40px;
+border-radius: 20px;
+background-color: #ff4e50;
+border: 0;
+  }
+
+
+  .text{
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 300;
+    text-align: center;
+  }
+
+
+/*section team*/
+
+.mono{
+    text-align: center;
+    font-size: 22px;
+color: #333333;
+font-family: "Montserrat";
+font-weight: 700;
+margin-top: 68px;
+margin-bottom: 10px;
+}
+
+.team-play{
+    text-align: center;
+}
+
+img{
+    margin-bottom: 24px;
+}
+
+.name{
+    font-size: 14px;
+    color: #333333;
+    font-family: "Montserrat";
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+
+.prolog {
+  margin-bottom: 24px;
+  font-size: 14px;
+  color: #666666;
+  font-family: "Roboto";
+  font-weight: 300;
+}
+
+
+.finish {
+  font-size: 14px;
+color: #ff4e50;
+font-family: "Montserrat";
+font-weight: 700;
+width: 280px;
+height: 40px;
+border-radius: 20px;
+background-color: #ffffff;
+border: 2px solid #ff4e50;  
+margin-bottom: 56px;
+cursor: pointer;    
+}
+
+@media (min-width:768px) {
+body{
+  color: chocolate;
+}
+}
