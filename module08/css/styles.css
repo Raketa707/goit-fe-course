@@ -1,0 +1,381 @@
+/* roboto-slab-300 - latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('../fonts/roboto-slab-v11-latin-300.woff2') format('woff2'), 
+         url('../fonts/roboto-slab-v11-latin-300.woff') format('woff');
+}
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'),
+         url('../fonts/montserrat-v14-latin-regular.woff') format('woff'); 
+  }
+  
+/* roboto-slab-regular - latin */
+ @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto-slab-v11-latin-regular.woff2') format('woff2'),
+         url('../fonts/roboto-slab-v11-latin-regular.woff') format('woff'); 
+  }
+  
+  
+  /* montserrat-700 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+         url('../fonts/montserrat-v14-latin-700.woff2') format('woff2'),
+         url('../fonts/montserrat-v14-latin-700.woff') format('woff'); 
+  }
+  
+
+* {
+ margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a{
+text-decoration: none;
+}
+  
+  
+.clearfix::after {
+display: table;
+content: "";
+clear: both;
+}
+
+
+.container{
+max-width: 1170px;
+min-width: 320px;
+margin: auto;
+}
+
+
+body{
+height: auto;
+margin: 0 auto;
+}
+  
+
+.navigation{
+text-align: center;
+background-image: url(../images/Mobile.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+  
+
+.logo{
+font-size: 20px;
+letter-spacing: 1px;
+color: #ffffff;
+font-family: "Montserrat";
+font-weight: 700;
+}
+
+
+.btn {
+font-family: "Montserrat";
+font-weight: 700;
+box-sizing: border-box;
+font-size: 14px;
+color: #ffffff;
+height: 36px;
+width: 90px;
+border: 2px solid rgba(255, 255, 255, 0);
+border-radius: 18px;
+background-color: rgba(26, 25, 21, 0);
+margin-top: 16px;
+margin-bottom: 124px;
+outline: none;
+}
+
+
+.btn:hover {
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+
+.header-button {  
+font-family: 'Montserrat';
+font-weight: 700;
+box-sizing: border-box;
+font-size: 14px;
+color: rgb(255, 255, 255);
+height: 36px;
+width: 90px;
+border: 2px solid  rgba(255, 255, 255, 0);
+border-radius: 20px;
+background-color: rgba(26, 25, 21, 0);
+outline: none;
+}
+
+
+.headline {
+font-size: 18px;
+color: #ffffff;
+font-family: "Montserrat";
+font-weight: 700;
+text-align: center;
+}
+
+
+.one{
+margin-top: 20px;
+}
+
+
+.two{
+margin-bottom: 18px;
+}
+
+
+.finder {
+margin-bottom: 131px;
+margin-top: 18px;
+font-size: 14px;
+color: #ffffff;
+font-family: "Montserrat";
+font-weight: 700;
+text-align: center;
+width: 280px;
+height: 40px;
+border-radius: 20px;
+background-color: #ff4e50;
+border: 0;
+cursor: pointer;  
+outline: none;
+}
+
+
+.text{
+font-size: 18px;
+color: #ffffff;
+font-family: "Roboto";
+font-weight: 300;
+text-align: center;
+}
+
+
+/*section team*/
+
+
+.mono{
+text-align: center;
+font-size: 22px;
+color: #333333;
+font-family: "Montserrat";
+font-weight: 700;
+margin-top: 68px;
+margin-bottom: 20px;
+}
+
+
+.team-play{
+text-align: center;
+}
+
+
+.name{
+font-size: 14px;
+color: #333333;
+font-family: "Montserrat";
+font-weight: 700;
+margin-bottom: 14px;
+margin-top: 24px;
+}
+
+
+.prolog {
+margin-bottom: 24px;
+font-size: 14px;
+color: #666666;
+font-family: "Roboto";
+font-weight: 300;
+}
+
+.fin{
+  text-align: center;
+}
+
+.pos{
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  }
+  
+  
+  .finish {
+  font-size: 14px;
+  color: #ff4e50;
+  font-family: "Montserrat";
+  font-weight: 700;
+  width: 280px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border: 2px solid #ff4e50;  
+  margin-bottom: 56px;
+  cursor: pointer;   
+  outline: none; 
+  }
+  
+
+
+/* before */
+
+
+.bradley::before{
+display:block;
+content: "";
+background-image: url(../images/1.1.png);
+width: 40px;
+height: 40px;
+position: absolute;
+right: 0;
+bottom: 0;
+}
+
+
+.lucas::before{
+display:block;
+content: "";
+background-image: url(../images/1.2.png);
+width: 40px;
+height: 40px;
+position: absolute;
+right: 0;
+bottom: 0;
+}
+
+
+.walker::before{
+display:block;
+content: "";
+background-image: url(../images/1.3.png);
+width: 40px;
+height: 40px;
+position: absolute;
+right: 0;
+bottom: 0;
+}
+
+
+.hunter::before{
+display:block;
+content: "";
+background-image: url(../images/1.4.png);
+width: 40px;
+height: 40px;
+position: absolute;
+right:0;
+bottom: 0;
+}
+
+/* media */
+
+
+
+@media (min-width:768px)  and (max-width:991px) {
+.navigation{
+background-image: url(../images/Tablet.png);}
+.headline{
+font-size: 52px;
+}
+.text{
+font-size: 24px;
+}
+.mono{
+margin-bottom: 40px;
+}
+.lo{
+padding-top:22px;
+}
+.navigation-list{
+display: flex;
+justify-content:space-between;
+}
+.lo{
+order: 1;
+}
+.mo{
+order: 2;
+}
+.team-list{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.wrap{
+width: 236px;
+height: 236px;
+margin-bottom: 48px;
+}
+
+.container-team{
+  width: 492px;
+  text-align: center;
+  justify-content:space-between;
+  margin: 0 auto;
+}
+}
+
+
+
+@media (min-width:992px) {
+.navigation{
+background-image: url(../images/Desktop.png);
+}
+.wrap{
+width: 220px;
+ margin-right: 20px;
+}
+.headline{
+font-size: 52px;
+}
+.text{
+font-size: 24px;
+}
+.mono{
+margin-bottom: 40px;
+}
+.lo{
+padding-top:22px;
+}
+.navigation-list{
+display: flex;
+justify-content: space-around;
+}
+.lo{
+order: 1;
+}
+.mo{
+order: 2;
+}
+.team-list{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+}
