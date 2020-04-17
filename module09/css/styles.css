@@ -79,7 +79,7 @@ text-align: center;
 background-image: url(../images/Mobile.png);
 background-repeat: no-repeat;
 background-position: center;
-background-size: auto;
+background-size: cover;
 }
   
 
@@ -103,8 +103,8 @@ width: 90px;
 border: 2px solid rgba(255, 255, 255, 0);
 border-radius: 18px;
 background-color: rgba(26, 25, 21, 0);
+margin-bottom: 128px;
 margin-top: 16px;
-margin-bottom: 124px;
 outline: none;
 }
 
@@ -151,7 +151,7 @@ margin-bottom: 18px;
 
 
 .finder {
-margin-bottom: 131px;
+margin-bottom: 138px;
 margin-top: 18px;
 font-size: 14px;
 color: #ffffff;
@@ -297,7 +297,8 @@ text-align: center;
 
 @media (min-width:768px) {
 .navigation{
-background-image: url(../images/Tablet.png);}
+background-image: url(../images/Tablet.png);
+}
 .headline{
 font-size: 52px;
 }
@@ -309,6 +310,9 @@ font-size: 24px;
 }
 .lo{
   padding-top:22px;
+}
+.finder{
+  margin-bottom: 238px;
 }
 }
 
